@@ -8,4 +8,5 @@ For the detection and tracking part we choose different approaches:
 * **YoloV3** with a _tracking algorithm developed by us_
 * **Background subtraction** with _OpenCV_
 * **YoloV4** with _DeepSORT_ for object tracking.
+
 We tested all these methods also in a night environment, a challenging task that led to good results. We achieved the best results with Yolov4 DeepSORT, also in the night environment, and a good accuracy for Yolov3 with our tracking method both for day and night videos. The worst performance was obtained by the OpenCV method, especially in the night environment
